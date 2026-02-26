@@ -1,0 +1,5 @@
+-- max_connections is set via the postgres command line in docker-compose.yml:
+--   command: ["postgres", "-c", "max_connections=100"]
+-- This ensures it takes effect on first startup without requiring a restart.
+--
+-- Place any additional database initialization (tables, extensions, seed data) below.
